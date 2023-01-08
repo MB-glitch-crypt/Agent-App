@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { AgentService } from '../services/agent.service';
-import { VariableGlobalService } from '../services/variable-global.service';
+import { GlobalVarService } from '../services/global-var.service';
+import { ProspectServiceService } from '../services/prospect-service.service';
+
 
 @Component({
   selector: 'app-transfert-account',
@@ -23,7 +24,7 @@ export class TransfertAccountComponent implements OnInit {
   check:boolean=false;
   globalvar:string=this.serviceglobal.getMyVariable();
   
-  constructor(private router:Router,private serviceglobal: VariableGlobalService, private service: AgentService) { }
+  constructor(private router:Router,private serviceglobal: GlobalVarService, private service: ProspectServiceService) { }
 
   ngOnInit(): void {
   }

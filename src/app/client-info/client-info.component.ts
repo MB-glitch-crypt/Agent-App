@@ -14,7 +14,7 @@ export class ClientInfoComponent implements OnInit {
   }
 
   goToTransfert():void{
-    this.router.navigate(['/account_transfer'])
+    this.router.navigate(['/transfert_account'])
   }
 
 }

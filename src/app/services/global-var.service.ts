@@ -3,16 +3,18 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class VariableGlobalService {
-  private mavariable: any;
+export class GlobalVarService {
+  private myVariable: any;
+
 
   constructor() { }
   getMyVariable() {
-    return this.mavariable;
+    return this.myVariable;
   }
 
   setMyVariable(value: any) {
-    this.mavariable = value;
+    this.myVariable = value;
   }
+
 
 }

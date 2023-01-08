@@ -1,3 +1,4 @@
+import { EmissionTransfertDebitComponent } from './emission-transfert-debit/emission-transfert-debit.component';
 import { ProfileComponent } from './profile/profile.component';
 
 
@@ -22,8 +23,10 @@ const routes: Routes = [
       {path:'manageaccounts', component:ManageAccountsComponent},
       {path:'profile', component:ProfileComponent},
       {path:'client_info', component:ClientInfoComponent},
-      {path:'transfert_account', component:TransfertAccountComponent},
       {path:'enespece',component:EmissionTransfertEspeceComponent},
+      {path:'pardebit',component:EmissionTransfertDebitComponent},
+      {path:'transfert_account', component:TransfertAccountComponent}
+      
       
     ]
 }

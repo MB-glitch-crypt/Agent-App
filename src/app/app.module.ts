@@ -22,6 +22,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { EmissionTransfertEspeceComponent } from './emission-transfert-espece/emission-transfert-espece.component';
 import { ClientInfoComponent } from './client-info/client-info.component';
 import { TransfertAccountComponent } from './transfert-account/transfert-account.component';
+import { EmissionTransfertDebitComponent } from './emission-transfert-debit/emission-transfert-debit.component';
 
 
 @NgModule({
@@ -37,7 +38,8 @@ import { TransfertAccountComponent } from './transfert-account/transfert-account
     ProfileComponent,
     EmissionTransfertEspeceComponent,
     ClientInfoComponent,
-    TransfertAccountComponent 
+    TransfertAccountComponent,
+    EmissionTransfertDebitComponent 
     
     
   ],
