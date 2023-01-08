@@ -1,3 +1,4 @@
+import { AgentService } from './../services/agent.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { Client } from '../model/client-model';
@@ -17,8 +18,8 @@ export class EmissionTransfertEspeceComponent implements OnInit {
     private router:Router,
     private serviceglobal: VariableGlobalService,
    // private keycloakService: KeycloakService,
-    private service:ProspectServiceService
-  ) { }
+    private service:AgentService
+  ) {}
 
   ngOnInit(): void {
   }
@@ -28,11 +29,11 @@ export class EmissionTransfertEspeceComponent implements OnInit {
      {
          this.client=response;
          if(response == null){
-           alert("le client n'exsiste pas il faut ")
+           alert("le client n'exsiste pas il faut l'ajouter ")
            //this.router.navigate([''])
          }
          else {
-           this.router.navigate(['/user_data'])
+           this.router.navigate(['/client_info'])
            this.serviceglobal.setMyVariable("byaccount")
           // this.name = this.keycloakService.getUsername();
            console.log(this.name)
@@ -40,5 +41,7 @@ export class EmissionTransfertEspeceComponent implements OnInit {
      });
 
      }
+
+
 
 }

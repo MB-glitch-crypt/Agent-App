@@ -20,6 +20,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { ProfileComponent } from './profile/profile.component';
 import { EmissionTransfertEspeceComponent } from './emission-transfert-espece/emission-transfert-espece.component';
+import { ClientInfoComponent } from './client-info/client-info.component';
+import { TransfertAccountComponent } from './transfert-account/transfert-account.component';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { EmissionTransfertEspeceComponent } from './emission-transfert-espece/em
     ToolbarComponent,
     HeaderComponent,
     ProfileComponent,
-    EmissionTransfertEspeceComponent 
+    EmissionTransfertEspeceComponent,
+    ClientInfoComponent,
+    TransfertAccountComponent 
     
     
   ],

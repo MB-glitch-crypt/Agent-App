@@ -1,0 +1,46 @@
+.body{
+    background-color: #FFDE03;
+    }
+    .tab{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+    
+    }
+    .button{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: 47%;
+        background-color: #ee0979 ;
+        color: white;
+    }
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 60%;
+        margin-left: 285px;
+        margin-top: 30px;
+        background-color: rgb(248, 244, 244);
+        box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+        border-radius: 20px;
+      }
+      td, th {
+        border: 0px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    
+      tr:nth-child(even) {
+        background-color:white;
+      }
+    
+    h2{
+      text-align: center;
+    
+      font-weight: bold;
+    
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
