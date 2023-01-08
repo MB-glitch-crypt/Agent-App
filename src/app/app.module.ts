@@ -23,6 +23,10 @@ import { EmissionTransfertEspeceComponent } from './emission-transfert-espece/em
 import { ClientInfoComponent } from './client-info/client-info.component';
 import { TransfertAccountComponent } from './transfert-account/transfert-account.component';
 import { EmissionTransfertDebitComponent } from './emission-transfert-debit/emission-transfert-debit.component';
+import { ServirParDebitComponent } from './servir-par-debit/servir-par-debit.component';
+import { ServirParEspeceComponent } from './servir-par-espece/servir-par-espece.component';
+import { ServiceMoneyComponent } from './service-money/service-money.component';
+import { ServeMonnaieComponent } from './serve-monnaie/serve-monnaie.component';
 
 
 @NgModule({
@@ -39,7 +43,12 @@ import { EmissionTransfertDebitComponent } from './emission-transfert-debit/emis
     EmissionTransfertEspeceComponent,
     ClientInfoComponent,
     TransfertAccountComponent,
-    EmissionTransfertDebitComponent 
+    EmissionTransfertDebitComponent,
+    ServirParDebitComponent,
+    ServirParEspeceComponent,
+    ServiceMoneyComponent,
+    ServeMonnaieComponent,
+    
     
     
   ],
